@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desafio Café Brasil: Arábica ou Canéfora?</title>
+    <meta
+      name="description"
+      content="Quiz educativo sobre café arábica, canéfora, sistemas de produção, qualidade e sustentabilidade, com Conexão Embrapa."
+    />
+    <link rel="preload" href="assets/cafe-hero.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="app-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Quiz interativo</p>
+          <h1 id="app-title">Desafio Café Brasil</h1>
+          <p class="subtitle">Arábica ou Canéfora?</p>
+          <p class="intro">
+            Aprenda jogando sobre os dois principais sistemas cafeeiros do Brasil,
+            com explicações curtas e uma ponte para conhecimentos da Embrapa.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-action" id="startButton" type="button">
+              Começar desafio
+            </button>
+            <button class="secondary-action" id="shuffleButton" type="button">
+              Embaralhar perguntas
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="quiz-layout" id="quizSection" hidden>
+        <aside class="status-panel" aria-label="Progresso do quiz">
+          <div>
+            <span class="status-label">Progresso</span>
+            <strong id="progressText">1 de 30</strong>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+          <div class="score-row">
+            <div>
+              <span class="status-label">Acertos</span>
+              <strong id="scoreText">0</strong>
+            </div>
+            <div>
+              <span class="status-label">Bloco</span>
+              <strong id="blockText">Conhecendo as espécies</strong>
+            </div>
+          </div>
+        </aside>
+
+        <section class="question-panel" aria-live="polite">
+          <div class="question-meta">
+            <span id="categoryPill">comparação</span>
+            <span id="questionNumber">Questão 1</span>
+          </div>
+          <h2 id="questionText"></h2>
+          <div class="options-grid" id="optionsList"></div>
+
+          <div class="feedback" id="feedbackBox" hidden>
+            <p class="feedback-kicker" id="feedbackKicker"></p>
+            <p id="explanationText"></p>
+            <p class="embrapa-connection">
+              <strong>Conexão Embrapa:</strong>
+              <span id="embrapaText"></span>
+            </p>
+          </div>
+
+          <div class="question-actions">
+            <button class="secondary-action" id="restartButton" type="button">
+              Reiniciar
+            </button>
+            <button class="primary-action" id="nextButton" type="button" disabled>
+              Próxima
+            </button>
+          </div>
+        </section>
+      </section>
+
+      <section class="result-panel" id="resultSection" hidden>
+        <p class="eyebrow">Resultado</p>
+        <h2 id="resultTitle"></h2>
+        <p class="result-score" id="resultScore"></p>
+        <p id="resultMessage"></p>
+        <div class="result-actions">
+          <button class="primary-action" id="playAgainButton" type="button">
+            Jogar novamente
+          </button>
+          <button class="secondary-action" id="reviewButton" type="button">
+            Revisar perguntas
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
