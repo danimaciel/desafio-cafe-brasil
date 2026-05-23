@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Desafio Café Brasil: Arábica ou Canéfora?</title>
+    <title>Desafio Café Brasil: Sistemas Cafeeiros e Conexão Embrapa</title>
     <meta
       name="description"
-      content="Quiz educativo sobre café arábica, canéfora, sistemas de produção, qualidade e sustentabilidade, com Conexão Embrapa."
+      content="Quiz educativo sobre sistemas cafeeiros, território, genética, manejo, qualidade, sustentabilidade e inovação, com Conexão Embrapa."
     />
     <link rel="preload" href="assets/cafe-hero.png" as="image" />
     <link rel="stylesheet" href="styles.css" />
@@ -18,10 +18,10 @@
         <div class="hero-content">
           <p class="eyebrow">Quiz interativo</p>
           <h1 id="app-title">Desafio Café Brasil</h1>
-          <p class="subtitle">Arábica ou Canéfora?</p>
+          <p class="subtitle">Sistemas Cafeeiros e Conexão Embrapa</p>
           <p class="intro">
-            Aprenda jogando sobre os dois principais sistemas cafeeiros do Brasil,
-            com explicações curtas e uma ponte para conhecimentos da Embrapa.
+            Aprenda jogando sobre diversidade, território, genética, manejo,
+            pós-colheita, qualidade, sustentabilidade e inovação na cafeicultura.
           </p>
           <div class="hero-actions">
             <button class="primary-action" id="startButton" type="button">
@@ -38,7 +38,7 @@
         <aside class="status-panel" aria-label="Progresso do quiz">
           <div>
             <span class="status-label">Progresso</span>
-            <strong id="progressText">1 de 30</strong>
+            <strong id="progressText">1 de 37</strong>
           </div>
           <div class="progress-track" aria-hidden="true">
             <span id="progressBar"></span>
@@ -50,14 +50,14 @@
             </div>
             <div>
               <span class="status-label">Bloco</span>
-              <strong id="blockText">Conhecendo as espécies</strong>
+              <strong id="blockText">Conhecendo o café</strong>
             </div>
           </div>
         </aside>
 
         <section class="question-panel" aria-live="polite">
           <div class="question-meta">
-            <span id="categoryPill">comparação</span>
+            <span id="categoryPill">sistemas cafeeiros</span>
             <span id="questionNumber">Questão 1</span>
           </div>
           <h2 id="questionText"></h2>
@@ -68,7 +68,7 @@
             <p id="explanationText"></p>
             <p class="embrapa-connection">
               <strong>Conexão Embrapa:</strong>
-              <span id="embrapaText"></span>
+              <div id="embrapaText"></div>
             </p>
           </div>
 

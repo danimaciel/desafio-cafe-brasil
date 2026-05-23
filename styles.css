@@ -303,6 +303,25 @@ h1 {
   color: #4c3b31;
 }
 
+.connection-list {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.connection-list li {
+  line-height: 1.45;
+}
+
+.connection-list a {
+  color: var(--coffee);
+  font-weight: 700;
+  text-decoration-color: rgba(91, 46, 32, 0.35);
+  text-underline-offset: 3px;
+}
+
 .question-actions {
   justify-content: space-between;
 }
