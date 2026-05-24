@@ -158,7 +158,7 @@ const questions = [
   {
     "block": "Território, clima e adaptação",
     "category": "arábica",
-    "question": "Segundo o material do ATER+Digital, qual faixa de temperatura é geralmente mais associada ao bom desempenho do Coffea arabica?",
+    "question": "Qual faixa de temperatura é geralmente mais associada ao bom desempenho do Coffea arabica?",
     "options": [
       "5 °C a 10 °C",
       "18 °C a 23 °C",
@@ -230,33 +230,6 @@ const questions = [
       "solution": {
         "title": "SELEGEN - Produto / Software para Clientes Externos - Embrapa Florestas",
         "url": "https://www.embrapa.br/busca-de-solucoes-tecnologicas/-/produto-servico/2133/p--selegenp"
-      }
-    }
-  },
-  {
-    "block": "Genética, cultivares e planejamento",
-    "category": "material genético",
-    "question": "Qual aspecto NÃO deve ser ignorado na escolha do material genético para uma nova lavoura?",
-    "options": [
-      "Adaptação ao clima",
-      "Resistência a pragas e doenças",
-      "Potencial de qualidade da bebida",
-      "Apenas o nome comercial mais bonito"
-    ],
-    "answer": 3,
-    "explanation": "A decisão deve considerar critérios técnicos, como adaptação, resistência, produtividade, qualidade e objetivo do sistema produtivo.",
-    "connection": {
-      "ater": {
-        "title": "Escolha do material genético - adaptação e resistência",
-        "url": "https://www.atermaisdigital.cnptia.embrapa.br/web/cafe/escolha-do-material-gen%C3%A9tico"
-      },
-      "publication": {
-        "title": "Reação de genótipos de feijão-caupi a Colletotrichum truncatum. (2006) - Embrapa Meio-Norte",
-        "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/69389/1/Bpd650001.pdf"
-      },
-      "solution": {
-        "title": "Robusta Amazônico - Cultivar híbrida de café - BRS 3213 - Produto / Cultivar convencional - Embrapa Rondônia",
-        "url": "https://www.embrapa.br/busca-de-solucoes-tecnologicas/-/produto-servico/4969/p--strongrobusta-amazocircnico-ndash-cultivar-hiacutebrida-de-cafeacute-ndash-brs-3213strongp"
       }
     }
   },
@@ -686,33 +659,6 @@ const questions = [
       "solution": {
         "title": "Protocolo de análise sensorial de bebida de café - Metodologia / Metodologia Técnico-Científica - Embrapa Cerrados",
         "url": "https://www.embrapa.br/busca-de-solucoes-tecnologicas/-/produto-servico/9799/p--protocolo-de-anaacutelise-sensorial-de-bebida-de-cafeacutep"
-      }
-    }
-  },
-  {
-    "block": "Pós-colheita, qualidade e cafés especiais",
-    "category": "canéforas especiais",
-    "question": "Qual afirmação sobre Canéforas especiais está mais alinhada ao ATER+Digital?",
-    "options": [
-      "Canéforas não podem ter complexidade sensorial",
-      "Canéforas de qualidade podem apresentar notas como chocolate, especiarias, frutas maduras, castanhas, mel, caramelo e nuances licorosas",
-      "Canéforas são usados apenas como ornamentais",
-      "Canéforas não respondem a genética, manejo ou pós-colheita"
-    ],
-    "answer": 1,
-    "explanation": "O avanço em genética, manejo, fermentação, secagem e avaliação sensorial tem valorizado a identidade própria dos Canéforas de qualidade.",
-    "connection": {
-      "ater": {
-        "title": "Cafés especiais e qualidade sensorial - diversidade dos Canéforas",
-        "url": "https://www.atermaisdigital.cnptia.embrapa.br/web/cafe/cafesespeciais"
-      },
-      "publication": {
-        "title": "Caracterização do perfil sensorial de Robustas Amazônicos. (2024) - Embrapa Rondônia",
-        "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1164684/1/ANAIS-EIPER-2023-FINAL-40.pdf"
-      },
-      "solution": {
-        "title": "Robusta Amazônico - Cultivar híbrida de café - BRS 3210 - Produto / Cultivar convencional - Embrapa Rondônia",
-        "url": "https://www.embrapa.br/busca-de-solucoes-tecnologicas/-/produto-servico/4970/p--strongrobusta-amazocircnico-ndash-cultivar-hiacutebrida-de-cafeacute-ndash-brs-3210strongp"
       }
     }
   },

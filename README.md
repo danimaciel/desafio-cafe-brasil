@@ -4,7 +4,7 @@ Quiz educativo e interativo sobre sistemas cafeeiros, ATER+Digital Café, public
 
 ## Sobre
 
-O projeto apresenta 34 perguntas sobre:
+O projeto apresenta 32 perguntas sobre:
 
 - Conhecendo o café
 - Território, clima e adaptação
