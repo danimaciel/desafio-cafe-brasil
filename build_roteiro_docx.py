@@ -72,11 +72,6 @@ def add_label(document, label, text):
 
 def add_link_label(document, label, item):
     if not item:
-        add_label(
-            document,
-            label,
-            "não selecionada nesta questão; usar somente publicação/ATER+Digital ou realizar curadoria posterior.",
-        )
         return
     add_label(document, label, item["title"])
     add_label(document, "Link", item["url"])

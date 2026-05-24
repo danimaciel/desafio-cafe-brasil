@@ -62,6 +62,16 @@ button {
   color: #fffdf8;
 }
 
+.hero-logo {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 26px;
+  width: min(220px, 42vw);
+  height: auto;
+  transform: translateX(-50%);
+}
+
 .eyebrow {
   margin: 0 0 14px;
   color: #f5c16c;
@@ -371,7 +381,7 @@ h1 {
   }
 
   .hero-content {
-    padding: 38px 22px 30px;
+    padding: 38px 22px 96px;
   }
 
   .quiz-layout {
