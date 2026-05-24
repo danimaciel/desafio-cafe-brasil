@@ -2,7 +2,7 @@ const questions = [
   {
     "block": "Conhecendo o café",
     "category": "espécies comerciais",
-    "question": "Segundo o conteúdo do ATER+Digital, quais são as duas espécies comerciais que mais se destacam na produção mundial de café?",
+    "question": "Quais são as duas espécies comerciais que mais se destacam na produção mundial de café?",
     "options": [
       "Coffea arabica e Coffea canephora",
       "Coffea bourbon e Coffea geisha",
