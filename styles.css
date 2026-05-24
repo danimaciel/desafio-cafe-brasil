@@ -62,16 +62,6 @@ button {
   color: #fffdf8;
 }
 
-.hero-logo {
-  position: absolute;
-  z-index: 2;
-  left: 50%;
-  bottom: 26px;
-  width: min(220px, 42vw);
-  height: auto;
-  transform: translateX(-50%);
-}
-
 .eyebrow {
   margin: 0 0 14px;
   color: #f5c16c;
@@ -218,6 +208,17 @@ h1 {
   margin-bottom: 18px;
   color: var(--muted);
   font-weight: 700;
+}
+
+.quiz-logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 6px 0 18px;
+}
+
+.quiz-logo {
+  width: min(190px, 46vw);
+  height: auto;
 }
 
 #categoryPill {
@@ -381,7 +382,7 @@ h1 {
   }
 
   .hero-content {
-    padding: 38px 22px 96px;
+    padding: 38px 22px 30px;
   }
 
   .quiz-layout {
